@@ -24,3 +24,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/LotusSpa', 'LotusController@who');
+Route::get('/Hacemos', 'LotusController@what');
+Route::get('/Mision', 'LotusController@mission');
+Route::get('/Contacto', 'LotusController@contact');
